@@ -57,7 +57,7 @@ public class AgendaTelefonica {
 
     public List<String> OrdenarContactosOrdenAlfabetico() {
         List<String> OrdenAlfabetico = new ArrayList<>();
-        Collections.sort(this.getContactos());
+        //Collections.sort();
         
         return OrdenAlfabetico;
     }

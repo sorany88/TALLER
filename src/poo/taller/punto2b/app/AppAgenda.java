@@ -23,16 +23,17 @@ public class AppAgenda {
         agendaJorge.getContactos().add(contacto6);
 
 
-//        agendaJorge.BuscarContactoNombre("Alejo");
-//        agendaJorge.BuscarContactoApellido("Vallejo");
-//        agendaJorge.BuscarContactoNumero("3008384574");
-//        agendaJorge.BuscarContactoApellido("Perez");
-//        agendaJorge.BuscarContactoApellido("Yepes");
-//        agendaJorge.CambiarNumeroCelular("Alejo", "Perez", "3002021051");
-//        agendaJorge.BuscarContactoApellido("Perez");
-//        agendaJorge.BuscarContactoApellido("Yepes");
+        agendaJorge.BuscarContactoNombre("Alejo");
+        agendaJorge.BuscarContactoApellido("Vallejo");
+        agendaJorge.BuscarContactoNumero("3008384574");
+        agendaJorge.BuscarContactoApellido("Perez");
+        agendaJorge.BuscarContactoApellido("Yepes");
+        agendaJorge.CambiarNumeroCelular("Alejo", "Perez", "3002021051");
+        agendaJorge.BuscarContactoApellido("Perez");
+        agendaJorge.BuscarContactoApellido("Yepes");
 
-          agendaJorge.OrdenarContactosOrdenAlfabetico();
+
+        //agendaJorge.OrdenarContactosOrdenAlfabetico();
 
         //Contacto contact1 = agendaJorge.BuscarContactoNombre("Alejo");
         //System.out.println("Se encontró el contacto " + contact1.getNumeroCelular());
