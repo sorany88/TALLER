@@ -39,26 +39,26 @@ public class AppMaquinaMecato {
         maquinaMecato.consultarAgotados();
 
         maquinaMecato.consultarUnidades(108);
-        maquinaMecato.aumentarStock(108, 5);
+        maquinaMecato.aumentarStock(108, 10);
         maquinaMecato.consultarUnidades(108);
         maquinaMecato.consultarAgotados();
         maquinaMecato.consultarTotalUnidades();
 
-        maquinaMecato.sacarUnidad(108);
-        maquinaMecato.consultarUnidades(108);
-        maquinaMecato.consultarTotalUnidades();
-
-        maquinaMecato.consultarUnidades(102);
-        maquinaMecato.sacarUnidad("Choclitos");
-        maquinaMecato.consultarUnidades(102);
-
-        maquinaMecato.sacarUnidad("Coca Cola");
-        maquinaMecato.sacarUnidad("Coca Cola");
-        maquinaMecato.sacarUnidad("Coca Cola");
-        maquinaMecato.sacarUnidad("Coca Cola");
-        maquinaMecato.consultarUnidades(108);
-        maquinaMecato.consultarTotalUnidades();
-        maquinaMecato.consultarAgotados();
+//        maquinaMecato.sacarUnidad(108);
+//        maquinaMecato.consultarUnidades(108);
+//        maquinaMecato.consultarTotalUnidades();
+//
+//        maquinaMecato.consultarUnidades(102);
+//        maquinaMecato.sacarUnidad("Choclitos");
+//        maquinaMecato.consultarUnidades(102);
+//
+//        maquinaMecato.sacarUnidad("Coca Cola");
+//        maquinaMecato.sacarUnidad("Coca Cola");
+//        maquinaMecato.sacarUnidad("Coca Cola");
+//        maquinaMecato.sacarUnidad("Coca Cola");
+//        maquinaMecato.consultarUnidades(108);
+//        maquinaMecato.consultarTotalUnidades();
+//        maquinaMecato.consultarAgotados();
     }
 
 }
